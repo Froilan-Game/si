@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Enviar Texto</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <h1>Envío de Texto</h1>
+  <form id="textoForm">
+    <div class="labelContainer">
+      <label for="autor">Autor:</label>
+    </div>
+    <input type="text" id="autor" name="autor" required>
+    <div class="labelContainer">
+      <label for="texto" id="lbText">Texto:</label>
+    </div>
+    <textarea id="texto" name="texto" rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+  <div id="respuesta"></div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
